@@ -33,5 +33,6 @@ export interface Insight {
   title: string;
   category: string;
   date: string;
-  image: string;
+  image?: string;
+  snippet?: string;
 }
