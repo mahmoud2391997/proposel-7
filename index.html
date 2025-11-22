@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benson Global Inc. | Where Global Wealth Meets Regenerative Impact</title>
+    <meta name="description" content="Benson Global Inc. designs multi-asset investment architectures for families, institutions, athletes, and governments across the world." />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bg: {
+                DEFAULT: '#050505',
+                card: '#0A0A0A',
+                cardHover: '#111314',
+              },
+              gold: {
+                DEFAULT: '#D4A53A',
+                light: '#F5E29C',
+                dark: '#B8871E',
+                dim: 'rgba(212, 165, 58, 0.15)',
+              },
+              text: {
+                main: '#F2F2F2',
+                muted: '#A1A1AA',
+                accent: '#DDD2AA',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            backgroundImage: {
+              'hero-gradient': 'radial-gradient(circle at top left, rgba(212,165,58,0.15), transparent 55%), radial-gradient(circle at bottom right, rgba(212,165,58,0.08), transparent 55%)',
+              'spiderweb': 'repeating-linear-gradient(0deg, transparent, transparent 49px, rgba(212, 165, 58, 0.03) 50px), repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(212, 165, 58, 0.03) 50px)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #050505;
+        color: #F2F2F2;
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050505;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #D4A53A;
+      }
+      .text-glow {
+        text-shadow: 0 0 20px rgba(212, 165, 58, 0.3);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
